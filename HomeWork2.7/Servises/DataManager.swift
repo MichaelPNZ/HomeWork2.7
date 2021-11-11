@@ -27,7 +27,5 @@ class DataManager {
                         "bhbvvjg@mail.ru","mjbgxsszd@mail.ru","wwkmkbjv@mail.ru",
                         "wwwjnkjhb@mail.ru", "wwmnvvnw@mail.ru","whgvhchcww@mail.ru", "wwwkhjbhh@mail.ru"
     ]
-    
-//    private init() {}
 
 }
