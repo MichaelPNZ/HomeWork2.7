@@ -7,14 +7,18 @@
 
 import Foundation
 
-let personInfo = DataManager()
-
 struct Person {
-    var name: String
-    var surName: String
-    var phone: String
-    var email: String
+    let name: String
+    let surName: String
+    let phone: String
+    let email: String
     
+    var fullName: String {
+        "\(name) \(surName)"
+    }
+}
+
+extension Person {
     static func createPersons() -> [Person] {
         
         var persons: [Person] = []
@@ -24,7 +28,14 @@ struct Person {
         let phones = DataManager.data.arrayOfPhone.shuffled()
         let emails = DataManager.data.arrayOfEmail.shuffled()
         
-        for index in 0..<names.count {
+        let iterationCount = min(
+            names.count,
+            surNames.count,
+            phones.count,
+            emails.count
+        )
+        
+        for index in 0..<iterationCount {
             let person = Person(name: names[index],
                                 surName: surNames[index],
                                 phone: phones[index],
@@ -37,7 +48,10 @@ struct Person {
     }
 }
 
-    
+enum Contacts: String {
+    case phone = "phone"
+    case email = "tray"
+}
     
     
     

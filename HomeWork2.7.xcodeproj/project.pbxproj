@@ -14,6 +14,7 @@
 		576F5CAF273AFAD200741C2F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 576F5CAD273AFAD200741C2F /* LaunchScreen.storyboard */; };
 		576F5CBC273B08BD00741C2F /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 576F5CBB273B08BD00741C2F /* Person.swift */; };
 		576F5CBE273B0A9D00741C2F /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 576F5CBD273B0A9D00741C2F /* DataManager.swift */; };
+		578BCD38273DBCDC0049E688 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 578BCD37273DBCDC0049E688 /* TabBarViewController.swift */; };
 		5791998A273C3ECF00902B1A /* SecondTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57919989273C3ECF00902B1A /* SecondTableViewController.swift */; };
 		5791998C273C3F3400902B1A /* PersonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5791998B273C3F3400902B1A /* PersonViewController.swift */; };
 		5791998E273C3F7900902B1A /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5791998D273C3F7900902B1A /* TableViewController.swift */; };
@@ -29,6 +30,7 @@
 		576F5CB0273AFAD200741C2F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		576F5CBB273B08BD00741C2F /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		576F5CBD273B0A9D00741C2F /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		578BCD37273DBCDC0049E688 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 		57919989273C3ECF00902B1A /* SecondTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondTableViewController.swift; sourceTree = "<group>"; };
 		5791998B273C3F3400902B1A /* PersonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonViewController.swift; sourceTree = "<group>"; };
 		5791998D273C3F7900902B1A /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
@@ -81,6 +83,7 @@
 				57919989273C3ECF00902B1A /* SecondTableViewController.swift */,
 				5791998B273C3F3400902B1A /* PersonViewController.swift */,
 				5791998D273C3F7900902B1A /* TableViewController.swift */,
+				578BCD37273DBCDC0049E688 /* TabBarViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -198,6 +201,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				578BCD38273DBCDC0049E688 /* TabBarViewController.swift in Sources */,
 				5791998A273C3ECF00902B1A /* SecondTableViewController.swift in Sources */,
 				5791998E273C3F7900902B1A /* TableViewController.swift in Sources */,
 				576F5CBE273B0A9D00741C2F /* DataManager.swift in Sources */,
